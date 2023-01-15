@@ -302,3 +302,60 @@ main li{
     font-weight: 600;
     font-size: 20px;
 }
+@media only screen and (max-width:576px) {
+   
+
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-img{
+        display: none;
+    }
+    .u-one{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-section-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .u-two{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-text{
+        text-align: center;
+    }
+    .responsive{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .multi-container{
+        text-align: center;
+    }
+    .big-button{
+        display: none;
+    }
+    .some-facts{
+      display: none;
+    }
+    .section-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .extra-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
